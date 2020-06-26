@@ -3,4 +3,7 @@
     .container{
         width:80%;
     }
+    .container.is-toggled{
+        height: 1700px;
+    }
 }
