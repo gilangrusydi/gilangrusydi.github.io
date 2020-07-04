@@ -87,6 +87,13 @@ img{
 .tag-skills{
     margin:15px 0;
 }
+
+/* Tag employment */
+.tag-employment{
+    margin-top:15px;
+}
+
+/* Tag achievement */
 .tag-achievement{
     margin:12px 0;
 }
