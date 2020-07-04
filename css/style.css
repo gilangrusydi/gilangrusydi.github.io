@@ -41,12 +41,12 @@ button:hover{
     box-shadow: 0 14px 28px rgba(0,0,0,0.05), 0 10px 10px rgba(0,0,0,0.09);
     position: relative;
     overflow: hidden;
-    transition: .6s cubic-bezier(.62,.28,.23,.99);
+    transition: .9s cubic-bezier(.62,.28,.23,.99);
     height: 390px;
 }
 
 .container.is-toggled{
-    height: 1400px;
+    height: 2000px;
 }
 
 /* Title */
@@ -68,28 +68,30 @@ img{
 /* Global section */
 .section{
     width:80%;
-    margin: 30px auto;
+    margin: 35px auto;
     font-size: .9em;
 }
 /* Every tag in section */
 .tag{
-    font-size: 1.3em;
+    font-size: 1.4em;
     text-transform: uppercase;
     font-weight: 400;
     margin-bottom: 7px;
 }
 .tag-employment,
+.tag-project,
 .tag-skills,
 .tag-achievement{
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 /* Tag skills */
 .tag-skills{
     margin:15px 0;
 }
 
-/* Tag employment */
-.tag-employment{
+/* Tag employment&project */
+.tag-employment,
+.tag-project{
     margin-top:15px;
 }
 
@@ -97,6 +99,24 @@ img{
 .tag-achievement{
     margin:12px 0;
 }
+
+/* Projects */
+.project-wrapper{
+    margin:20px 0;
+}
+.project-wrapper .tag-project-tech{    
+    margin-top:-4px;
+}
+
+.project-wrapper .tag-project-tech span{
+    display: inline-block;
+    font-size: .8em;
+}
+
+.project-wrapper p{
+    margin-top:5px;
+}
+
 
 /* Technologies */
 .tech-wrapper{
