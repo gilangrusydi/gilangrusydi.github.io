@@ -1,0 +1,1 @@
+import{a as o,o as s,k as t,p as n}from"./entry.1f367562.js";const c={},r={class:"max-w-screen-xl mx-auto px-4 sm:px-6 md:px-8 my-12 mb-24"};function _(e,a){return s(),t("div",r,[n(e.$slots,"default")])}const p=o(c,[["render",_]]);export{p as _};
